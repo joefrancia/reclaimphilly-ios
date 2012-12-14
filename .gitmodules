@@ -1,0 +1,6 @@
+[submodule "reclaimPhilly/reclaimPhilly/AFNetworking"]
+	path = reclaimPhilly/reclaimPhilly/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "reclaimPhilly/reclaimPhilly/JSONKit"]
+	path = reclaimPhilly/reclaimPhilly/JSONKit
+	url = https://github.com/johnezang/JSONKit.git

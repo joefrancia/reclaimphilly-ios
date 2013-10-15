@@ -1,0 +1,1 @@
+../../SSDataKit/SSDataKit/SSManagedTableViewController.h

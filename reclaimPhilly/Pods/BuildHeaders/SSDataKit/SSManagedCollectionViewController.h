@@ -1,0 +1,1 @@
+../../SSDataKit/SSDataKit/SSManagedCollectionViewController.h

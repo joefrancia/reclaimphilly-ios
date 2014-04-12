@@ -1,0 +1,8 @@
+platform :ios, '6.1'
+
+pod 'AFNetworking'
+pod 'CocoaLumberjack'
+pod 'BPXLUUIDHandler'
+#pod 'BlocksKit'
+pod 'YapDatabase'
+pod 'FMDB'

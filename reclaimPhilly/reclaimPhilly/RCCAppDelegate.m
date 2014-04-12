@@ -7,12 +7,14 @@
 //
 
 #import "RCCAppDelegate.h"
+#import <GoogleMaps/GoogleMaps.h>
+#import "RCCConstants.h"
 
 @implementation RCCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [GMSServices provideAPIKey:kGoogleMapsAPIKey];
     return YES;
 }
 							

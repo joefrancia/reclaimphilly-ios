@@ -14,7 +14,7 @@
 		10022EE418F8F40B00046F0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022EE318F8F40B00046F0B /* main.m */; };
 		10022EE818F8F40B00046F0B /* RCCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022EE718F8F40B00046F0B /* RCCAppDelegate.m */; };
 		10022EEB18F8F40B00046F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10022EE918F8F40B00046F0B /* Main.storyboard */; };
-		10022EEE18F8F40B00046F0B /* RCCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022EED18F8F40B00046F0B /* RCCFirstViewController.m */; };
+		10022EEE18F8F40B00046F0B /* RCCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022EED18F8F40B00046F0B /* RCCMapViewController.m */; };
 		10022EF118F8F40B00046F0B /* RCCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022EF018F8F40B00046F0B /* RCCSecondViewController.m */; };
 		10022EF318F8F40B00046F0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10022EF218F8F40B00046F0B /* Images.xcassets */; };
 		10022EFA18F8F40C00046F0B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022EF918F8F40C00046F0B /* XCTest.framework */; };
@@ -22,6 +22,26 @@
 		10022EFC18F8F40C00046F0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022EDB18F8F40B00046F0B /* UIKit.framework */; };
 		10022F0418F8F40C00046F0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10022F0218F8F40C00046F0B /* InfoPlist.strings */; };
 		10022F0618F8F40C00046F0B /* ReclaimPhillyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022F0518F8F40C00046F0B /* ReclaimPhillyTests.m */; };
+		10022F1018F8F67D00046F0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F0F18F8F67D00046F0B /* AVFoundation.framework */; };
+		10022F1218F8F68500046F0B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1118F8F68500046F0B /* CoreData.framework */; };
+		10022F1418F8F68C00046F0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1318F8F68C00046F0B /* CoreLocation.framework */; };
+		10022F1618F8F69200046F0B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1518F8F69200046F0B /* CoreText.framework */; };
+		10022F1818F8F69900046F0B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1718F8F69900046F0B /* GLKit.framework */; };
+		10022F1A18F8F6A000046F0B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1918F8F6A000046F0B /* ImageIO.framework */; };
+		10022F1C18F8F6AC00046F0B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1B18F8F6AC00046F0B /* libc++.dylib */; };
+		10022F1E18F8F6B200046F0B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1D18F8F6B200046F0B /* libicucore.dylib */; };
+		10022F2018F8F6B900046F0B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F1F18F8F6B900046F0B /* libz.dylib */; };
+		10022F2218F8F6C000046F0B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F2118F8F6C000046F0B /* OpenGLES.framework */; };
+		10022F2418F8F6C800046F0B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F2318F8F6C800046F0B /* QuartzCore.framework */; };
+		10022F2618F8F6D200046F0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F2518F8F6D200046F0B /* SystemConfiguration.framework */; };
+		10022F2818F8F71B00046F0B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 10022F2718F8F71B00046F0B /* Podfile */; };
+		10022F2A18F8F7C000046F0B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10022F2918F8F7C000046F0B /* GoogleMaps.framework */; };
+		10022F2C18F8F7CF00046F0B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 10022F2B18F8F7CF00046F0B /* GoogleMaps.bundle */; };
+		10022F2E18F8F90500046F0B /* RCCConstants.h in Resources */ = {isa = PBXBuildFile; fileRef = 10022F2D18F8F90500046F0B /* RCCConstants.h */; };
+		10022F3018F8F92800046F0B /* RCCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022F2F18F8F92800046F0B /* RCCConstants.m */; };
+		10022F3318F8FDFC00046F0B /* RCCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022F3218F8FDFC00046F0B /* RCCProperty.m */; };
+		10022F3618F8FE9800046F0B /* NSDate+ReclaimCities.m in Sources */ = {isa = PBXBuildFile; fileRef = 10022F3518F8FE9800046F0B /* NSDate+ReclaimCities.m */; };
+		61010574EC0B4726B1C2224E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE887749DC44D1B4393253 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +66,8 @@
 		10022EE618F8F40B00046F0B /* RCCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCAppDelegate.h; sourceTree = "<group>"; };
 		10022EE718F8F40B00046F0B /* RCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCAppDelegate.m; sourceTree = "<group>"; };
 		10022EEA18F8F40B00046F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		10022EEC18F8F40B00046F0B /* RCCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCFirstViewController.h; sourceTree = "<group>"; };
-		10022EED18F8F40B00046F0B /* RCCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCFirstViewController.m; sourceTree = "<group>"; };
+		10022EEC18F8F40B00046F0B /* RCCMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCMapViewController.h; sourceTree = "<group>"; };
+		10022EED18F8F40B00046F0B /* RCCMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCMapViewController.m; sourceTree = "<group>"; };
 		10022EEF18F8F40B00046F0B /* RCCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCCSecondViewController.h; sourceTree = "<group>"; };
 		10022EF018F8F40B00046F0B /* RCCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCCSecondViewController.m; sourceTree = "<group>"; };
 		10022EF218F8F40B00046F0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +76,29 @@
 		10022F0118F8F40C00046F0B /* ReclaimPhillyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReclaimPhillyTests-Info.plist"; sourceTree = "<group>"; };
 		10022F0318F8F40C00046F0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10022F0518F8F40C00046F0B /* ReclaimPhillyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReclaimPhillyTests.m; sourceTree = "<group>"; };
+		10022F0F18F8F67D00046F0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		10022F1118F8F68500046F0B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		10022F1318F8F68C00046F0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		10022F1518F8F69200046F0B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		10022F1718F8F69900046F0B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		10022F1918F8F6A000046F0B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		10022F1B18F8F6AC00046F0B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		10022F1D18F8F6B200046F0B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		10022F1F18F8F6B900046F0B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		10022F2118F8F6C000046F0B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		10022F2318F8F6C800046F0B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10022F2518F8F6D200046F0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		10022F2718F8F71B00046F0B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		10022F2918F8F7C000046F0B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		10022F2B18F8F7CF00046F0B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../../../../Downloads/GoogleMaps-iOS-1.7.2/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		10022F2D18F8F90500046F0B /* RCCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCConstants.h; sourceTree = "<group>"; };
+		10022F2F18F8F92800046F0B /* RCCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCConstants.m; sourceTree = "<group>"; };
+		10022F3118F8FDFC00046F0B /* RCCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCProperty.h; sourceTree = "<group>"; };
+		10022F3218F8FDFC00046F0B /* RCCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCProperty.m; sourceTree = "<group>"; };
+		10022F3418F8FE9800046F0B /* NSDate+ReclaimCities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ReclaimCities.h"; sourceTree = "<group>"; };
+		10022F3518F8FE9800046F0B /* NSDate+ReclaimCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ReclaimCities.m"; sourceTree = "<group>"; };
+		1FEE887749DC44D1B4393253 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		555A0D0AD9054B31B5003BEE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +106,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10022F2618F8F6D200046F0B /* SystemConfiguration.framework in Frameworks */,
+				10022F2418F8F6C800046F0B /* QuartzCore.framework in Frameworks */,
+				10022F2218F8F6C000046F0B /* OpenGLES.framework in Frameworks */,
+				10022F2018F8F6B900046F0B /* libz.dylib in Frameworks */,
+				10022F1E18F8F6B200046F0B /* libicucore.dylib in Frameworks */,
+				10022F1C18F8F6AC00046F0B /* libc++.dylib in Frameworks */,
+				10022F1A18F8F6A000046F0B /* ImageIO.framework in Frameworks */,
+				10022F1818F8F69900046F0B /* GLKit.framework in Frameworks */,
+				10022F1618F8F69200046F0B /* CoreText.framework in Frameworks */,
+				10022F1418F8F68C00046F0B /* CoreLocation.framework in Frameworks */,
+				10022F1218F8F68500046F0B /* CoreData.framework in Frameworks */,
+				10022F1018F8F67D00046F0B /* AVFoundation.framework in Frameworks */,
 				10022EDA18F8F40B00046F0B /* CoreGraphics.framework in Frameworks */,
 				10022EDC18F8F40B00046F0B /* UIKit.framework in Frameworks */,
+				10022F2A18F8F7C000046F0B /* GoogleMaps.framework in Frameworks */,
 				10022ED818F8F40B00046F0B /* Foundation.framework in Frameworks */,
+				61010574EC0B4726B1C2224E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +142,12 @@
 		10022ECB18F8F40B00046F0B = {
 			isa = PBXGroup;
 			children = (
+				10022F2718F8F71B00046F0B /* Podfile */,
 				10022EDD18F8F40B00046F0B /* ReclaimPhilly */,
 				10022EFF18F8F40C00046F0B /* ReclaimPhillyTests */,
 				10022ED618F8F40B00046F0B /* Frameworks */,
 				10022ED518F8F40B00046F0B /* Products */,
+				555A0D0AD9054B31B5003BEE /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +163,25 @@
 		10022ED618F8F40B00046F0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10022F2B18F8F7CF00046F0B /* GoogleMaps.bundle */,
+				10022F2918F8F7C000046F0B /* GoogleMaps.framework */,
+				10022F2518F8F6D200046F0B /* SystemConfiguration.framework */,
+				10022F2318F8F6C800046F0B /* QuartzCore.framework */,
+				10022F2118F8F6C000046F0B /* OpenGLES.framework */,
+				10022F1F18F8F6B900046F0B /* libz.dylib */,
+				10022F1D18F8F6B200046F0B /* libicucore.dylib */,
+				10022F1B18F8F6AC00046F0B /* libc++.dylib */,
+				10022F1918F8F6A000046F0B /* ImageIO.framework */,
+				10022F1718F8F69900046F0B /* GLKit.framework */,
+				10022F1518F8F69200046F0B /* CoreText.framework */,
+				10022F1318F8F68C00046F0B /* CoreLocation.framework */,
+				10022F1118F8F68500046F0B /* CoreData.framework */,
+				10022F0F18F8F67D00046F0B /* AVFoundation.framework */,
 				10022ED718F8F40B00046F0B /* Foundation.framework */,
 				10022ED918F8F40B00046F0B /* CoreGraphics.framework */,
 				10022EDB18F8F40B00046F0B /* UIKit.framework */,
 				10022EF918F8F40C00046F0B /* XCTest.framework */,
+				1FEE887749DC44D1B4393253 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,11 +189,17 @@
 		10022EDD18F8F40B00046F0B /* ReclaimPhilly */ = {
 			isa = PBXGroup;
 			children = (
+				10022F3418F8FE9800046F0B /* NSDate+ReclaimCities.h */,
+				10022F3518F8FE9800046F0B /* NSDate+ReclaimCities.m */,
+				10022F3118F8FDFC00046F0B /* RCCProperty.h */,
+				10022F3218F8FDFC00046F0B /* RCCProperty.m */,
 				10022EE618F8F40B00046F0B /* RCCAppDelegate.h */,
 				10022EE718F8F40B00046F0B /* RCCAppDelegate.m */,
+				10022F2D18F8F90500046F0B /* RCCConstants.h */,
+				10022F2F18F8F92800046F0B /* RCCConstants.m */,
 				10022EE918F8F40B00046F0B /* Main.storyboard */,
-				10022EEC18F8F40B00046F0B /* RCCFirstViewController.h */,
-				10022EED18F8F40B00046F0B /* RCCFirstViewController.m */,
+				10022EEC18F8F40B00046F0B /* RCCMapViewController.h */,
+				10022EED18F8F40B00046F0B /* RCCMapViewController.m */,
 				10022EEF18F8F40B00046F0B /* RCCSecondViewController.h */,
 				10022EF018F8F40B00046F0B /* RCCSecondViewController.m */,
 				10022EF218F8F40B00046F0B /* Images.xcassets */,
@@ -164,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10022F0918F8F40C00046F0B /* Build configuration list for PBXNativeTarget "ReclaimPhilly" */;
 			buildPhases = (
+				E8569FF8487041F2B1FC2880 /* Check Pods Manifest.lock */,
 				10022ED018F8F40B00046F0B /* Sources */,
 				10022ED118F8F40B00046F0B /* Frameworks */,
 				10022ED218F8F40B00046F0B /* Resources */,
+				022686A561A04C2CAE3EF679 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +318,10 @@
 			files = (
 				10022EF318F8F40B00046F0B /* Images.xcassets in Resources */,
 				10022EE218F8F40B00046F0B /* InfoPlist.strings in Resources */,
+				10022F2818F8F71B00046F0B /* Podfile in Resources */,
+				10022F2E18F8F90500046F0B /* RCCConstants.h in Resources */,
 				10022EEB18F8F40B00046F0B /* Main.storyboard in Resources */,
+				10022F2C18F8F7CF00046F0B /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,15 +335,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		022686A561A04C2CAE3EF679 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8569FF8487041F2B1FC2880 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10022ED018F8F40B00046F0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10022F3618F8FE9800046F0B /* NSDate+ReclaimCities.m in Sources */,
+				10022F3318F8FDFC00046F0B /* RCCProperty.m in Sources */,
 				10022EE418F8F40B00046F0B /* main.m in Sources */,
-				10022EEE18F8F40B00046F0B /* RCCFirstViewController.m in Sources */,
+				10022EEE18F8F40B00046F0B /* RCCMapViewController.m in Sources */,
 				10022EE818F8F40B00046F0B /* RCCAppDelegate.m in Sources */,
 				10022EF118F8F40B00046F0B /* RCCSecondViewController.m in Sources */,
+				10022F3018F8F92800046F0B /* RCCConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +501,19 @@
 		};
 		10022F0A18F8F40C00046F0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555A0D0AD9054B31B5003BEE /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReclaimPhilly/ReclaimPhilly-Prefix.pch";
 				INFOPLIST_FILE = "ReclaimPhilly/ReclaimPhilly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,12 +521,19 @@
 		};
 		10022F0B18F8F40C00046F0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555A0D0AD9054B31B5003BEE /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Joseph Francia (9W2FYPALKW)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReclaimPhilly/ReclaimPhilly-Prefix.pch";
 				INFOPLIST_FILE = "ReclaimPhilly/ReclaimPhilly-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +598,7 @@
 				10022F0B18F8F40C00046F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10022F0C18F8F40C00046F0B /* Build configuration list for PBXNativeTarget "ReclaimPhillyTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +607,7 @@
 				10022F0E18F8F40C00046F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

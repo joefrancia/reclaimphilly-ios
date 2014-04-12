@@ -1,32 +1,34 @@
 //
-//  reclaimPhillyTests.m
-//  reclaimPhillyTests
+//  ReclaimPhillyTests.m
+//  ReclaimPhillyTests
 //
-//  Created by Joe Francia on 12/6/12.
-//  Copyright (c) 2012 Reclaim Philly. All rights reserved.
+//  Created by Joe Francia on 2014-04-12.
+//  Copyright (c) 2014 ReclaimCities. All rights reserved.
 //
 
-#import "reclaimPhillyTests.h"
+#import <XCTest/XCTest.h>
 
-@implementation reclaimPhillyTests
+@interface ReclaimPhillyTests : XCTestCase
+
+@end
+
+@implementation ReclaimPhillyTests
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in reclaimPhillyTests");
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

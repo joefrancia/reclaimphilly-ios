@@ -1,18 +1,18 @@
 //
 //  main.m
-//  reclaimPhilly
+//  ReclaimPhilly
 //
-//  Created by Joe Francia on 12/6/12.
-//  Copyright (c) 2012 Reclaim Philly. All rights reserved.
+//  Created by Joe Francia on 2014-04-12.
+//  Copyright (c) 2014 ReclaimCities. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "RPAppDelegate.h"
+#import "RCCAppDelegate.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([RPAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([RCCAppDelegate class]));
     }
 }

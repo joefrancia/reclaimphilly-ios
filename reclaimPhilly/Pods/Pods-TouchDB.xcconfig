@@ -1,1 +1,0 @@
-PODS_TOUCHDB_OTHER_LDFLAGS = -lsqlite3 -framework SystemConfiguration
